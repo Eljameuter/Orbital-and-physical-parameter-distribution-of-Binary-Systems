@@ -1,5 +1,5 @@
 ## Important Links
-[https://www.overleaf.com/read/hstttxpzgdtk#62cb08](Proposal)
+[Proposal](https://www.overleaf.com/read/hstttxpzgdtk#62cb08)
 
 Report
 
