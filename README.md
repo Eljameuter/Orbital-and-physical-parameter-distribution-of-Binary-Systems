@@ -23,7 +23,7 @@ What is the distribution of eccentricity, mass ratio, radius ratio, orbital peri
 | Deadline | Task                             | Owner  | Support | Progress | Notes                           |
 | -------- | -------------------------------- |--------|---------| -------- | ------------------------------- |
 | 18 Apr   | Data cleaning & validation       | Wouter | All     | 🔴 0%    | Maintains final cleaned dataset |
-| 20 Apr   | Identify catalogues & sources    | Elja      | Tobias  | 🔴 0%    | Document sources clearly        |
+| 20 Apr   | Identify catalogues & sources    | Elja      | Tobias  | 🟡 30%    | Document sources clearly        |
 | 25 Apr   | Bias research (eccentricity)     | Elja   | —       | 🔴 0%    | Summary required                |
 | 25 Apr   | Bias research (mass ratio + P)   | Tobias | —       | 🔴 0%    | Summary required                |
 | 25 Apr   | Bias research (radius ratio)     | Damian | —       | 🔴 0%    | Depends partly on Teff          |
