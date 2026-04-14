@@ -78,6 +78,7 @@ What is the distribution of eccentricity, mass ratio, radius ratio, orbital peri
 
 * Spectral type
 * Effective temperature (Teff) *(needed for radius ratio)*
+* Luminocity (L) *(needed for radius ratio)*
 
 ---
 
