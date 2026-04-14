@@ -86,7 +86,7 @@ What is the distribution of eccentricity, mass ratio, radius ratio, orbital peri
 
 * **Elja** → Eccentricity distribution
 * **Tobias** → Mass ratio + Orbital period distribution
-* **Damian** → Radius ratio *(depends on Teff)*
+* **Damian** → Radius ratio *(depends on Teff, L)*
 * **Wouter** → Semi-major axis distribution
 
 ---
