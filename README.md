@@ -50,9 +50,9 @@ What is the distribution of eccentricity, mass ratio, radius ratio, orbital peri
 | 11 May   | Interpretation (a)               | Wouter | All     | 🔴 0%    | —                                                                 |
 | 11 May   | Global tidal analysis            | Wouter | Elja    | 🔴 0%    | Cross-parameter synthesis                                         |
 | 14 May   | Draft report (methods)           | Tobias | All     | 🔴 0%    | Bias + methodology                                                |
-| 14 May   | Draft report (results)           | Elja   | All     | 🔴 0%    | Figures + trends                                                  |
+| 14 May   | Draft report (results)           | Damian   | All     | 🔴 0%    | Figures + trends                                                  |
 | 14 May   | Draft report (discussion)        | Wouter | All     | 🔴 0%    | Physical interpretation                                           |
-| 16 May   | Poster design                    | Damian | All     | 🔴 0%    | Visual clarity focus                                              |
+| 16 May   | Poster design                    | Elja | All     | 🔴 0%    | Visual clarity focus                                              |
 | 18 May   | Final report + presentation      | All    | —       | 🔴 0%    | Final integration                                                 |
 
 ---
