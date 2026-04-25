@@ -54,6 +54,8 @@ Only **spectroscopic (Section 3) and eclipsing
 (Section 4) binaries** can currently be utilized to quantify an
 **unbiased eccentricity distribution** for early-type binaries
 
+#### Overview of parameters like $gamma_{small}$ etc in Table 13!!
+
 ### ORB6
 * long/intermediate P
 * resolved systems
