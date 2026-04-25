@@ -26,34 +26,34 @@ What is the distribution of eccentricity, mass ratio, radius ratio, orbital peri
 
 ## ToDo
 
-| Deadline | Task                             | Owner  | Support | Progress | Notes                                                             |
-| -------- | -------------------------------- |--------|---------|----------|-------------------------------------------------------------------|
-| 18 Apr   | Data cleaning & validation       | Wouter | All     | 🔴 0%    | Maintains final cleaned dataset                                   |
-| 20 Apr   | Identify catalogues & sources    | Elja      | Tobias  | 🟢 100%  | Document sources clearly -> catalogues are in quick_read_out_data |
-| 25 Apr   | Bias research (eccentricity)     | Elja   | —       | 🟡 60%   | Summary required                                                  |
-| 25 Apr   | Bias research (mass ratio + P)   | Tobias | —       | 🔴 0%    | Summary required                                                  |
-| 25 Apr   | Bias research (radius ratio)     | Damian | —       | 🔴 0%    | Depends partly on Teff                                            |
-| 25 Apr   | Bias research (semi-major axis)  | Wouter | —       | 🔴 0%    | Summary required                                                  |
-| 27 Apr   | Define correction methods        | Tobias | All     | 🔴 0%    | Leads method consistency                                          |
-| 2 May    | Implement bias correction (e)    | Elja   | —       | 🔴 0%    | Code + notes                                                      |
-| 2 May    | Implement bias correction (q, P) | Tobias | —       | 🔴 0%    | Code + notes                                                      |
-| 2 May    | Implement bias correction (R)    | Damian | —       | 🔴 0%    | Needs Teff                                                        |
-| 2 May    | Implement bias correction (a)    | Wouter | —       | 🔴 0%    | Code + notes                                                      |
-| 5 May    | Generate distributions (e)       | Elja   | —       | 🔴 0%    | Raw vs corrected                                                  |
-| 5 May    | Generate distributions (q, P)    | Tobias | —       | 🔴 0%    | —                                                                 |
-| 5 May    | Generate distributions (R)       | Damian | —       | 🔴 0%    | —                                                                 |
-| 5 May    | Generate distributions (a)       | Wouter | —       | 🔴 0%    | —                                                                 |
-| TBD      | Obtain Teff + spectral type      | Damian | Tobias  | 🔴 0%    | Critical dependency                                               |
-| 11 May   | Interpretation (eccentricity)    | Elja   | All     | 🔴 0%    | Focus on tidal effects                                            |
-| 11 May   | Interpretation (q, P)            | Tobias | All     | 🔴 0%    | Link to formation scenarios                                       |
-| 11 May   | Interpretation (R)               | Damian | All     | 🔴 0%    | Depends on data completeness                                      |
-| 11 May   | Interpretation (a)               | Wouter | All     | 🔴 0%    | —                                                                 |
-| 11 May   | Global tidal analysis            | Wouter | Elja    | 🔴 0%    | Cross-parameter synthesis                                         |
-| 14 May   | Draft report (methods)           | Tobias | All     | 🔴 0%    | Bias + methodology                                                |
-| 14 May   | Draft report (results)           | Damian   | All     | 🔴 0%    | Figures + trends                                                  |
-| 14 May   | Draft report (discussion)        | Wouter | All     | 🔴 0%    | Physical interpretation                                           |
-| 16 May   | Poster design                    | Elja | All     | 🔴 0%    | Visual clarity focus                                              |
-| 18 May   | Final report + presentation      | All    | —       | 🔴 0%    | Final integration                                                 |
+| Deadline | Task                             | Owner  | Support | Progress | Notes                                                                                           |
+| -------- | -------------------------------- |--------|---------|----------|-------------------------------------------------------------------------------------------------|
+| 18 Apr   | Data cleaning & validation       | Wouter | All     | 🔴 0%    | Maintains final cleaned dataset                                                                 |
+| 20 Apr   | Identify catalogues & sources    | Elja      | Tobias  | 🟢 100%  | Document sources clearly -> catalogues are in quick_read_out_data                               |
+| 25 Apr   | Bias research (eccentricity)     | Elja   | —       | 🟢 95%   | Literary study in doc.md, also plan on how to implement                                         |
+| 25 Apr   | Bias research (mass ratio + P)   | Tobias | —       | 🔴 0%    | Summary required                                                                                |
+| 25 Apr   | Bias research (radius ratio)     | Damian | —       | 🔴 0%    | Depends partly on Teff                                                                          |
+| 25 Apr   | Bias research (semi-major axis)  | Wouter | —       | 🔴 0%    | Summary required                                                                                |
+| 27 Apr   | Define correction methods        | Tobias | All     | 🔴 0%    | Leads method consistency                                                                        |
+| 2 May    | Implement bias correction (e)    | Elja   | —       | 🟡 10%   | Code + notes -> made binary star generator, generates binary star populations based on Moe & Di Stefano (2017)  |
+| 2 May    | Implement bias correction (q, P) | Tobias | —       | 🔴 0%    | Code + notes                                                                                    |
+| 2 May    | Implement bias correction (R)    | Damian | —       | 🔴 0%    | Needs Teff                                                                                      |
+| 2 May    | Implement bias correction (a)    | Wouter | —       | 🔴 0%    | Code + notes                                                                                    |
+| 5 May    | Generate distributions (e)       | Elja   | —       | 🔴 0%    | Raw vs corrected                                                                                |
+| 5 May    | Generate distributions (q, P)    | Tobias | —       | 🔴 0%    | —                                                                                               |
+| 5 May    | Generate distributions (R)       | Damian | —       | 🔴 0%    | —                                                                                               |
+| 5 May    | Generate distributions (a)       | Wouter | —       | 🔴 0%    | —                                                                                               |
+| TBD      | Obtain Teff + spectral type      | Damian | Tobias  | 🔴 0%    | Critical dependency                                                                             |
+| 11 May   | Interpretation (eccentricity)    | Elja   | All     | 🔴 0%    | Focus on tidal effects                                                                          |
+| 11 May   | Interpretation (q, P)            | Tobias | All     | 🔴 0%    | Link to formation scenarios                                                                     |
+| 11 May   | Interpretation (R)               | Damian | All     | 🔴 0%    | Depends on data completeness                                                                    |
+| 11 May   | Interpretation (a)               | Wouter | All     | 🔴 0%    | —                                                                                               |
+| 11 May   | Global tidal analysis            | Wouter | Elja    | 🔴 0%    | Cross-parameter synthesis                                                                       |
+| 14 May   | Draft report (methods)           | Tobias | All     | 🔴 0%    | Bias + methodology                                                                              |
+| 14 May   | Draft report (results)           | Damian   | All     | 🔴 0%    | Figures + trends                                                                                |
+| 14 May   | Draft report (discussion)        | Wouter | All     | 🔴 0%    | Physical interpretation                                                                         |
+| 16 May   | Poster design                    | Elja | All     | 🔴 0%    | Visual clarity focus                                                                            |
+| 18 May   | Final report + presentation      | All    | —       | 🔴 0%    | Final integration                                                                               |
 
 ---
 ## Progress Legend
