@@ -2096,7 +2096,7 @@ J031239.15+713320.6,0.394,,113249.415,1.01,20.75076923076923,134.9, | ref_idsys:
 J031243.00+385758.0,,,0.82569325,,,, | ref_idsys: GCVS | id: QW Per | catalogue: B/gcvs; CEV | filename: gcvs_cat.dat; catalog.dat
 J031246.32-011144.5,0.26,,,,44.29,114.1, | ref_idsys: ADS; HD; HIP; WDS | id: 2406; 19994; 14954; 03128-0112AB | catalogue: J/A+A/546/A69; ORB6 | filename: table1.dat; orb6.dat
 J031257.08+441714.7,0.718,,218419.5,0.998,9.177368421052632,, | ref_idsys: ADS; HD; HIP | id: 2397; 19822; 14969 | catalogue: J/A+A/546/A69; Hipparcos | filename: table1.dat; hip_main.dat
-J031322.40+480631.0,0.0,,8.038216727272728,,10.0,, | ref_idsys: GCVS; SBC9 | id: LX Per; 160 | catalogue: II/150A; CEV; B/gcvs; J/MNRAS/349/1069; SB9 | filename: catalog.dat; gcvs_cat.dat; table1.dat; orbits.dat
+J031322.40+480631.0,0.0,0.9803921568627451,8.038216727272728,,10.0,, | ref_idsys: GCVS; SBC9 | id: LX Per; 160 | catalogue: II/150A; CEV; B/gcvs; J/MNRAS/349/1069; SB9 | filename: catalog.dat; gcvs_cat.dat; table1.dat; orbits.dat
 J031334.96-471135.8,,,,,6.19,, | ref_idsys: HD | id: 20252 | catalogue: Hipparcos | filename: hip_main.dat
 J031341.47-654950.4,,,,,7.849999999999999,, | ref_idsys: HD | id: 20449 | catalogue: Hipparcos | filename: hip_main.dat
 J031351.23+435146.8,0.0,,45.779,,5.65,, | ref_idsys: GCVS; HD; SBC9 | id: V510 Per; 19942; 1848 | catalogue: J/MNRAS/349/1069; SB9 | filename: table1.dat; orbits.dat
@@ -4772,7 +4772,7 @@ J065023.99-160150.5,,,,,2.3,, | ref_idsys: HD | id: 49978 | catalogue: Hipparcos
 J065027.30+352146.0,,,3.429494,,,, | ref_idsys: GCVS | id: EQ Aur | catalogue: B/gcvs; CEV | filename: gcvs_cat.dat; catalog.dat
 J065038.97+053946.3,0.161,,897.098,,,, | ref_idsys: SBC9 | id: 1574 | catalogue: SB9 | filename: orbits.dat
 J065039.00-022207.0,,,0.5990126,,,, | ref_idsys: GCVS | id: V453 Mon | catalogue: V/119 ; B/gcvs | filename: catalog.dat; gcvs_cat.dat
-J065039.65+212156.0,,0.5385714285714286,1.2435011355555554,8.05,0.0,86.85, | ref_idsys: GCVS | id: AF Gem | catalogue: V/115; J/A+A/417/263; II/150A; J/MNRAS/491/5489; CEV; B/gcvs | filename: table1.dat; table3.dat; catalog.dat; tablea1.dat; table2.dat; gcvs_cat.dat
+J065039.65+212156.0,,0.5140582191780821,1.2435011355555554,8.05,0.0,86.85, | ref_idsys: GCVS | id: AF Gem | catalogue: V/115; J/A+A/417/263; II/150A; J/MNRAS/491/5489; CEV; B/gcvs | filename: table1.dat; table3.dat; catalog.dat; tablea1.dat; table2.dat; gcvs_cat.dat
 J065041.32-533720.8,0.0,,195.28006066666669,0.00217,5.99,101.32, | ref_idsys: HD; HIP | id: 50337; 32761 | catalogue: ORB6; J/A+A/546/A69 | filename: orb6.dat; table1.dat
 J065046.06+292711.3,,,0.358127,,4.09,, | ref_idsys: HD; HIP; GCVS | id: 264672; 32845; QW Gem | catalogue: Hipparcos; J/MNRAS/357/497; V/119  | filename: hip_main.dat; table1.dat; catalog.dat
 J065046.17-503652.4,0.09000000000000001,,1066.0000074166667,0.00715,17.92,80.2, | ref_idsys: HD; HIP | id: 50310; 32768 | catalogue: ORB6; J/A+A/546/A69 | filename: orb6.dat; table1.dat
@@ -5221,7 +5221,7 @@ J071606.90-302607.0,,,3.085418,,,, | ref_idsys: GCVS | id: MS CMa | catalogue: B
 J071619.20-164259.9,0.0,,4.800928799999999,,,86.59999999999998, | ref_idsys: GCVS; SBC9 | id: GZ CMa; 441 | catalogue: B/gcvs; Svechnikov99; CEV; SB9 | filename: gcvs_cat.dat; catalog.dat; orbits.dat
 J071619.80+270834.7,0.399,,304.362825,0.0273,83.09,94.2, | ref_idsys: HIP; WDS | id: 35191; 07163+2709AB | catalogue: J/A+A/546/A69; ORB6 | filename: table1.dat; orb6.dat
 J071623.50+304218.5,,,,,9.56,, | ref_idsys: HD | id: 55971 | catalogue: Hipparcos | filename: hip_main.dat
-J071624.70+731957.0,,,4.824009500000001,,,80.6, | ref_idsys: GCVS | id: SS Cam | catalogue: J/A+A/417/263; II/150A; B/gcvs; CEV; J/MNRAS/349/1069 | filename: table3.dat; catalog.dat; gcvs_cat.dat; table2.dat; table1.dat
+J071624.70+731957.0,,0.7679197994987469,4.824009500000001,,,80.6, | ref_idsys: GCVS | id: SS Cam | catalogue: J/A+A/417/263; II/150A; B/gcvs; CEV; J/MNRAS/349/1069 | filename: table3.dat; catalog.dat; gcvs_cat.dat; table2.dat; table1.dat
 J071625.10-254830.0,,,0.559923,,,, | ref_idsys: GCVS | id: BS CMa | catalogue: CEV; B/gcvs | filename: catalog.dat; gcvs_cat.dat
 J071635.97-461415.1,,,,,2.7900000000000005,, | ref_idsys: HD | id: 56857 | catalogue: Hipparcos | filename: hip_main.dat
 J071640.00-395426.0,,,0.4122045,,,, | ref_idsys: GCVS | id: GY Pup | catalogue: CEV; B/gcvs | filename: catalog.dat; gcvs_cat.dat
@@ -6715,7 +6715,7 @@ J090931.00+132124.4,,,,,9.79,, | ref_idsys: HD | id: 78609 | catalogue: Hipparco
 J090931.12+025628.6,,,,,5.69,, | ref_idsys: HD | id: 78637 | catalogue: Hipparcos | filename: hip_main.dat
 J090931.15+385345.1,0.45,,1732.0,,,, | ref_idsys: SBC9 | id: 2181 | catalogue: SB9 | filename: orbits.dat
 J090945.76-254810.4,,,,,3.16,, | ref_idsys: HD | id: 78876 | catalogue: Hipparcos | filename: hip_main.dat
-J090948.60+302537.0,,0.45999999999999996,1.1159774500000001,,2.0,81.5, | ref_idsys: GCVS | id: WW Cnc | catalogue: J/A+A/417/263; II/150A; B/gcvs; CEV | filename: table3.dat; catalog.dat; gcvs_cat.dat; table2.dat
+J090948.60+302537.0,,0.6059398496240601,1.1159774500000001,,2.0,81.5, | ref_idsys: GCVS | id: WW Cnc | catalogue: J/A+A/417/263; II/150A; B/gcvs; CEV | filename: table3.dat; catalog.dat; gcvs_cat.dat; table2.dat
 J090950.54+184947.5,0.0,,0.175443,,,, | ref_idsys: GCVS; SBC9 | id: GY Cnc; 2422 | catalogue: V/123A; SB9 | filename: cv.dat; orbits.dat
 J090955.89+542918.0,0.0,,0.478996848875,,15.09,, | ref_idsys: GCVS; HD; SBC9 | id: XY UMa; 237786; 2125 | catalogue: B/gcvs; CEV; J/MNRAS/349/1069; SB9 | filename: gcvs_cat.dat; catalog.dat; table1.dat; orbits.dat
 J090956.30-441033.6,,,,,0.87,, | ref_idsys: HD | id: 79021 | catalogue: Hipparcos | filename: hip_main.dat
@@ -8189,7 +8189,7 @@ J112541.94-431706.8,0.6205,,865.7,,,, | ref_idsys: SBC9 | id: 2509 | catalogue: 
 J112550.68-593533.8,,,,,6.05,, | ref_idsys: HD | id: 99435 | catalogue: Hipparcos | filename: hip_main.dat
 J112600.90-222859.0,,,3.051882,,,, | ref_idsys: GCVS | id: Z Crt | catalogue: B/gcvs; CEV | filename: gcvs_cat.dat; catalog.dat
 J112601.79-743634.0,,,0.931,,,, | ref_idsys: GCVS | id: GK Mus | catalogue: B/gcvs; CEV | filename: gcvs_cat.dat; catalog.dat
-J112621.30-582458.0,,,46.854350000000004,,2.0,, | ref_idsys: GCVS | id: AB Cen | catalogue: II/150A; CEV; B/gcvs | filename: catalog.dat; gcvs_cat.dat
+J112621.30-582458.0,,0.3333333333333333,46.854350000000004,,2.0,, | ref_idsys: GCVS | id: AB Cen | catalogue: II/150A; CEV; B/gcvs | filename: catalog.dat; gcvs_cat.dat
 J112630.78+080541.0,0.5969411764705882,,84007.5,0.43,0.0,67.0, | ref_idsys: ADS; HD; WDS | id: 8160; 99420; 11265+0806AB | catalogue: J/A+A/546/A69; ORB6 | filename: table1.dat; orb6.dat
 J112641.29+665344.1,,,,,3.05,, | ref_idsys: HD | id: 99343 | catalogue: Hipparcos | filename: hip_main.dat
 J112644.82-470738.5,,,,,0.12,, | ref_idsys: HD | id: 99541 | catalogue: Hipparcos | filename: hip_main.dat
@@ -11184,7 +11184,7 @@ J155132.10-733352.0,,,0.3752,,,, | ref_idsys: GCVS | id: GY Aps | catalogue: B/g
 J155133.30-722222.0,,,5.730787,,,, | ref_idsys: GCVS | id: FN Aps | catalogue: B/gcvs; CEV | filename: gcvs_cat.dat; catalog.dat
 J155140.51-710934.8,,,,,1.57,, | ref_idsys: HD | id: 140950 | catalogue: Hipparcos | filename: hip_main.dat
 J155156.95-123215.4,,,,,3.62,, | ref_idsys: HD | id: 141898 | catalogue: Hipparcos | filename: hip_main.dat
-J155157.99-552148.0,,,1.8845866666666666,,,, | ref_idsys: GCVS | id: GM Nor | catalogue: V/118; B/gcvs; CEV | filename: catalog.dat; gcvs_cat.dat
+J155157.99-552148.0,,0.0966183574879227,1.8845866666666666,,,, | ref_idsys: GCVS | id: GM Nor | catalogue: V/118; B/gcvs; CEV | filename: catalog.dat; gcvs_cat.dat
 J155158.81-645521.8,,,,,2.39,, | ref_idsys: HD | id: 141236 | catalogue: Hipparcos | filename: hip_main.dat
 J155200.34+523354.7,,,,,3.5,, | ref_idsys: HD | id: 142417 | catalogue: Hipparcos | filename: hip_main.dat
 J155208.39+105230.2,0.367,,1014.5000589285715,0.1,44.51,37.9, | ref_idsys: HIP; SBC9; WDS | id: 77725; 1521; 15521+1052AB | catalogue: ORB6; J/A+A/546/A69; SB9 | filename: orb6.dat; table1.dat; orbits.dat
@@ -15757,7 +15757,7 @@ J201226.41+535418.4,,,,,1.79,, | ref_idsys: HD | id: 192456 | catalogue: Hipparc
 J201231.68+512749.2,,,,,7.909999999999999,, | ref_idsys: HD | id: 192439 | catalogue: Hipparcos | filename: hip_main.dat
 J201233.12+401605.4,0.19,,5.48,,,, | ref_idsys: SBC9 | id: 2383 | catalogue: SB9 | filename: orbits.dat
 J201235.08+005159.4,,,,,5.41,, | ref_idsys: HD | id: 191984 | catalogue: Hipparcos | filename: hip_main.dat
-J201245.10+472341.0,0.25,0.13125,38.439282,78.09,0.0,86.5, | ref_idsys: GCVS; SBC9 | id: KU Cyg; 1214 | catalogue: J/A+A/417/263; V/115; II/150A; B/gcvs; CEV; J/MNRAS/491/5489; SB9 | filename: table3.dat; table1.dat; catalog.dat; table2.dat; gcvs_cat.dat; tablea1.dat; orbits.dat
+J201245.10+472341.0,0.25,,38.439282,78.09,0.0,86.5, | ref_idsys: GCVS; SBC9 | id: KU Cyg; 1214 | catalogue: J/A+A/417/263; V/115; II/150A; B/gcvs; CEV; J/MNRAS/491/5489; SB9 | filename: table3.dat; table1.dat; catalog.dat; table2.dat; gcvs_cat.dat; tablea1.dat; orbits.dat
 J201247.36-025945.2,,,,,6.13,, | ref_idsys: HD | id: 192007 | catalogue: Hipparcos | filename: hip_main.dat
 J201258.90+175902.0,,,4.456005,,,, | ref_idsys: GCVS | id: FH Sge | catalogue: CEV; B/gcvs | filename: catalog.dat; gcvs_cat.dat
 J201300.80+403842.0,,,0.497971,,,, | ref_idsys: GCVS | id: V726 Cyg | catalogue: B/gcvs | filename: gcvs_cat.dat
@@ -16432,7 +16432,7 @@ J205745.89-440142.1,,,,,8.16,, | ref_idsys: HD | id: 199287 | catalogue: Hipparc
 J205746.78-721717.7,,,,,12.520000000000001,, | ref_idsys: HD | id: 198780 | catalogue: Hipparcos | filename: hip_main.dat
 J205751.26-374310.1,,,,,4.3,, | ref_idsys: HD | id: 199349 | catalogue: Hipparcos | filename: hip_main.dat
 J205802.10-460400.0,,0.525,0.71210825,,1.0,, | ref_idsys: GCVS | id: RY Ind | catalogue: V/115; II/150A; CEV; B/gcvs | filename: table2.dat; catalog.dat; gcvs_cat.dat
-J205813.39+351030.0,0.0,0.7040000000000001,0.6311352345116279,,9.723684210526315,84.85, | ref_idsys: GCVS; HIP; SBC9 | id: CG Cyg; 103505; 1276 | catalogue: J/A+A/417/263; II/150A; CEV; B/gcvs; J/MNRAS/349/1069; SB9 | filename: table3.dat; catalog.dat; table2.dat; gcvs_cat.dat; table1.dat; table5.dat; orbits.dat
+J205813.39+351030.0,0.0,0.7421248266296809,0.6311352345116279,,9.723684210526315,84.85, | ref_idsys: GCVS; HIP; SBC9 | id: CG Cyg; 103505; 1276 | catalogue: J/A+A/417/263; II/150A; CEV; B/gcvs; J/MNRAS/349/1069; SB9 | filename: table3.dat; catalog.dat; table2.dat; gcvs_cat.dat; table1.dat; table5.dat; orbits.dat
 J205818.86-434507.2,,,,,10.47,, | ref_idsys: HD | id: 199388 | catalogue: Hipparcos | filename: hip_main.dat
 J205819.46+442818.1,0.44,,635.1,0.00748,,32.4, | ref_idsys: HD; SBC9 | id: 199870; 1277 | catalogue: ORB6; SB9 | filename: orb6.dat; orbits.dat
 J205827.25+412128.6,0.16,,840.2,,,, | ref_idsys: SBC9 | id: 2956 | catalogue: SB9 | filename: orbits.dat
@@ -18413,7 +18413,7 @@ J234133.50+101257.0,,0.5800000000000001,1.6318091339999998,,1.0,88.5, | ref_idsy
 J234140.25+482434.6,,,,,3.82,, | ref_idsys: HD | id: 222590 | catalogue: Hipparcos | filename: hip_main.dat
 J234144.30+560953.0,,,2.457947,,,, | ref_idsys: GCVS | id: V361 Cas | catalogue: B/gcvs | filename: gcvs_cat.dat
 J234157.22-421607.8,,,,,6.169999999999999,, | ref_idsys: HD | id: 222576 | catalogue: Hipparcos | filename: hip_main.dat
-J234201.40+514437.0,0.088,0.87,3.896653430769231,,3.0,, | ref_idsys: GCVS; SBC9 | id: IT Cas; 2618 | catalogue: II/150A; V/118; CEV; B/gcvs; SB9 | filename: catalog.dat; gcvs_cat.dat; orbits.dat
+J234201.40+514437.0,0.088,,3.896653430769231,,3.0,, | ref_idsys: GCVS; SBC9 | id: IT Cas; 2618 | catalogue: II/150A; V/118; CEV; B/gcvs; SB9 | filename: catalog.dat; gcvs_cat.dat; orbits.dat
 J234202.19+201746.4,,,,,8.15,, | ref_idsys: HD | id: 222610 | catalogue: Hipparcos | filename: hip_main.dat
 J234207.39+555438.0,,,0.4898315,,,, | ref_idsys: GCVS | id: V520 Cas | catalogue: B/gcvs | filename: gcvs_cat.dat
 J234218.40+852806.8,,,,,4.12,, | ref_idsys: HD | id: 222874 | catalogue: Hipparcos | filename: hip_main.dat
