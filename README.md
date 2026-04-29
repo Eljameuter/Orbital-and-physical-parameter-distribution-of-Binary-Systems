@@ -34,7 +34,7 @@ What is the distribution of eccentricity, mass ratio, radius ratio, orbital peri
 | 20 Apr   | Identify catalogues & sources    | Elja      | Tobias  | 🟢 100%  | Document sources clearly -> catalogues are in quick_read_out_data                               |
 | 25 Apr   | Bias research (eccentricity)     | Elja   | —       | 🟢 95%   | Literary study in doc.md, also plan on how to implement                                         |
 | 25 Apr   | Bias research (mass ratio + P)   | Tobias | —       | 🔴 0%    | Summary required                                                                                |
-| 25 Apr   | Bias research (radius ratio)     | Damian | —       | 🔴 0%    | Depends partly on Teff                                                                          |
+| 25 Apr   | Bias research (radius ratio)     | Damian | —       | 🟡 40%    | Depends partly on Teff                                                                          |
 | 25 Apr   | Bias research (semi-major axis)  | Wouter | —       | 🔴 0%    | Summary required                                                                                |
 | 27 Apr   | Define correction methods        | Tobias | All     | 🔴 0%    | Leads method consistency                                                                        |
 | 2 May    | Implement bias correction (e)    | Elja   | —       | 🟡 10%   | Code + notes -> made binary star generator, generates binary star populations based on Moe & Di Stefano (2017)  |
