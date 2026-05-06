@@ -62,9 +62,13 @@ Only **spectroscopic (Section 3) and eclipsing
 * nearby
 * bright pairs
 ### SB9
-Twins like to be seen: observational biases affecting spectroscopically selected binary stars
-What a local sample of spectroscopic binaries can tell us about the field binary population
-Single-lined Spectroscopic Binary Star Candidates from RAVE and Gaia DR2
+[Twins like to be seen: observational biases affecting spectroscopically selected binary stars](https://academic.oup.com/mnras/article/445/2/2028/1416743)
+
+
+[What a local sample of spectroscopic binaries can tell us about the field binary population](https://academic.oup.com/mnras/article/361/2/495/1057458)
+
+
+[Single-lined Spectroscopic Binary Star Candidates from RAVE and Gaia DR2](https://iopscience.iop.org/article/10.3847/1538-3881/ab3cc1)
 * short P
 * high RV amplitude
 * decent inclination
