@@ -72,3 +72,11 @@ Only **spectroscopic (Section 3) and eclipsing
 e > 0.5
 
 It is generally recognized that dynamical interactions in stellar systems produce binaries with ‘thermal’ eccentricity distribution f(e) = 2e
+
+
+[Source](https://www.aanda.org/articles/aa/pdf/2004/35/aa1213.pdf) :
+
+The constraints on eccentricity derived by Hut (1981) from
+dissipative tidal evolution lead to a lower limit on the angular momentum h. Given that h2 ∝ a(1 − e2), we get the upper
+envelope P(1 − e2)
+3/2 = const. 
