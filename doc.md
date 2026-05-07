@@ -2,8 +2,11 @@
 Which bias do we have in physical properties of stars (thin Kroupa INF and e propto P^eta) and what is observational bias
 - SB9
 - ORB6
-
 Game plan: research distributions from theory -> subtract found distribution from observational data -> result is observational bias
+
+# Poster colour scheme
+https://lospec.com/palette-list/retro-space
+
 # Catalogue overview
 
 LIST OF PARAMETERS AND SOURCES 
