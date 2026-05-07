@@ -1,3 +1,9 @@
+# change scope to
+Which bias do we have in physical properties of stars (thin Kroupa INF and e propto P^eta) and what is observational bias
+- SB9
+- ORB6
+
+Game plan: research distributions from theory -> subtract found distribution from observational data -> result is observational bias
 # Catalogue overview
 
 LIST OF PARAMETERS AND SOURCES 
