@@ -83,6 +83,12 @@ Only **spectroscopic (Section 3) and eclipsing
 * decent inclination
 * bright primaries
 ### Comments on eccentricity distributions
+Close binaries:
+uniform f(e) = 1
+Wide binaries
+thermal f(e) = 2e
+Very wide binaries
+
 [Source](https://academic.oup.com/mnras/article/456/2/2070/1071036)
 
 e > 0.5
