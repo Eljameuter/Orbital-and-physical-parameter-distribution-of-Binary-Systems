@@ -1,94 +1,65 @@
+# Binary Star Distribution Analysis
+
 ## Important Links
-[Proposal](https://www.overleaf.com/read/hstttxpzgdtk#62cb08)
 
-Report
+* [Proposal](https://www.overleaf.com/read/hstttxpzgdtk#62cb08)
 
-Poster
-## Research Question
+## Deliverables
 
-What is the distribution of eccentricity, mass ratio, radius ratio, orbital period and semi-major axis for a large number of binary stars, and how are these influenced by tidal effects?
+* Poster
 
 ---
+
+## Research Question
+
+What observational biases are present in the SB9 and ORB6 binary star catalogues when compared to theoretically expected binary star populations? Specifically, do the differences between observed and theoretical distributions of eccentricity, mass ratio, radius ratio, orbital period, and semi-major axis match the observational biases expected from the detection methods used in these catalogues?
+
+
+
 
 ## Timeline
 
 * **11 April** – Project start, dataset check, task division
 * **18 April** – Data cleaning complete
-* **25 April** – Bias research completed (per parameter)
-* **2 May** – Bias corrections implemented
-* **5 May** – Corrected distributions generated
-* **11 May** – Interpretation & tidal analysis complete
-* **14 May** – Draft report complete
+* **25 April** – Literature research on expected distributions complete
+* **2 May** – Expected population models implemented
+* **5 May** – Observed vs expected distributions generated
+* **8 May** – Poster planning & figure selection
 * **16 May** – Poster finalized
-* **18 May** – Final report + presentation
 * **22 May** – Poster Presentation
 
 ---
 
 ## ToDo
 
-<<<<<<< Updated upstream
-| Deadline | Task                             | Owner  | Support | Progress | Notes                                                                                           |
-| -------- | -------------------------------- |--------|---------|----------|-------------------------------------------------------------------------------------------------|
-| 18 Apr   | Data cleaning & validation       | Wouter | All     | 🔴 0%    | Maintains final cleaned dataset                                                                 |
-| 20 Apr   | Identify catalogues & sources    | Elja      | Tobias  | 🟢 100%  | Document sources clearly -> catalogues are in quick_read_out_data                               |
-| 25 Apr   | Bias research (eccentricity)     | Elja   | —       | 🟢 95%   | Literary study in doc.md, also plan on how to implement                                         |
-| 25 Apr   | Bias research (mass ratio + P)   | Tobias | —       | 🔴 0%    | Summary required                                                                                |
-| 25 Apr   | Bias research (radius ratio)     | Damian | —       | 🟡 40%    | Depends partly on Teff                                                                          |
-| 25 Apr   | Bias research (semi-major axis)  | Wouter | —       | 🔴 0%    | Summary required                                                                                |
-| 27 Apr   | Define correction methods        | Tobias | All     | 🔴 0%    | Leads method consistency                                                                        |
-| 2 May    | Implement bias correction (e)    | Elja   | —       | 🟡 10%   | Code + notes -> made binary star generator, generates binary star populations based on Moe & Di Stefano (2017)  |
-| 2 May    | Implement bias correction (q, P) | Tobias | —       | 🔴 0%    | Code + notes                                                                                    |
-| 2 May    | Implement bias correction (R)    | Damian | —       | 🔴 0%    | Needs Teff                                                                                      |
-| 2 May    | Implement bias correction (a)    | Wouter | —       | 🔴 0%    | Code + notes                                                                                    |
-| 5 May    | Generate distributions (e)       | Elja   | —       | 🔴 0%    | Raw vs corrected                                                                                |
-| 5 May    | Generate distributions (q, P)    | Tobias | —       | 🔴 0%    | —                                                                                               |
-| 5 May    | Generate distributions (R)       | Damian | —       | 🔴 0%    | —                                                                                               |
-| 5 May    | Generate distributions (a)       | Wouter | —       | 🔴 0%    | —                                                                                               |
-| TBD      | Obtain Teff + spectral type      | Damian | Tobias  | 🔴 0%    | Critical dependency                                                                             |
-| 11 May   | Interpretation (eccentricity)    | Elja   | All     | 🔴 0%    | Focus on tidal effects                                                                          |
-| 11 May   | Interpretation (q, P)            | Tobias | All     | 🔴 0%    | Link to formation scenarios                                                                     |
-| 11 May   | Interpretation (R)               | Damian | All     | 🔴 0%    | Depends on data completeness                                                                    |
-| 11 May   | Interpretation (a)               | Wouter | All     | 🔴 0%    | —                                                                                               |
-| 11 May   | Global tidal analysis            | Wouter | Elja    | 🔴 0%    | Cross-parameter synthesis                                                                       |
-| 14 May   | Draft report (methods)           | Tobias | All     | 🔴 0%    | Bias + methodology                                                                              |
-| 14 May   | Draft report (results)           | Damian   | All     | 🔴 0%    | Figures + trends                                                                                |
-| 14 May   | Draft report (discussion)        | Wouter | All     | 🔴 0%    | Physical interpretation                                                                         |
-| 16 May   | Poster design                    | Elja | All     | 🔴 0%    | Visual clarity focus                                                                            |
-| 18 May   | Final report + presentation      | All    | —       | 🔴 0%    | Final integration                                                                               |
-=======
-| Deadline | Task                             | Owner  | Support | Progress | Notes                                                             |
-| -------- | -------------------------------- |--------|---------|----------|-------------------------------------------------------------------|
-| 18 Apr   | Data cleaning & validation       | Wouter | All     | 🔴 0%    | Maintains final cleaned dataset                                   |
-| 20 Apr   | Identify catalogues & sources    | Elja      | Tobias  | 🟢 100%  | Document sources clearly -> catalogues are in quick_read_out_data |
-| 25 Apr   | Bias research (eccentricity)     | Elja   | —       | 🔴 0%    | Summary required                                                  |
-| 25 Apr   | Bias research (mass ratio + P)   | Tobias | —       | 🔴 0%    | Summary required                                                  |
-| 25 Apr   | Bias research (radius ratio)     | Damian | —       | 🔴 0%    | Depends partly on Teff                                            |
-| 25 Apr   | Bias research (semi-major axis)  | Wouter | —       | 🔴 0%    | Summary required                                                  |
-| 27 Apr   | Define correction methods        | Tobias | All     | 🔴 0%    | Leads method consistency                                          |
-| 2 May    | Implement bias correction (e)    | Elja   | —       | 🔴 0%    | Code + notes                                                      |
-| 2 May    | Implement bias correction (q, P) | Tobias | —       | 🔴 0%    | Code + notes                                                      |
-| 2 May    | Implement bias correction (R)    | Damian | —       | 🔴 0%    | Needs Teff                                                        |
-| 2 May    | Implement bias correction (a)    | Wouter | —       | 🔴 0%    | Code + notes                                                      |
-| 5 May    | Generate distributions (e)       | Elja   | —       | 🔴 0%    | Raw vs corrected                                                  |
-| 5 May    | Generate distributions (q, P)    | Tobias | —       | 🔴 0%    | —                                                                 |
-| 5 May    | Generate distributions (R)       | Damian | —       | 🔴 0%    | —                                                                 |
-| 5 May    | Generate distributions (a)       | Wouter | —       | 🔴 0%    | —                                                                 |
-| TBD      | Obtain Teff + spectral type      | Damian | Tobias  | 🔴 0%    | Critical dependency                                               |
-| 11 May   | Interpretation (eccentricity)    | Elja   | All     | 🔴 0%    | Focus on tidal effects                                            |
-| 11 May   | Interpretation (q, P)            | Tobias | All     | 🔴 0%    | Link to formation scenarios                                       |
-| 11 May   | Interpretation (R)               | Damian | All     | 🔴 0%    | Depends on data completeness                                      |
-| 11 May   | Interpretation (a)               | Wouter | All     | 🔴 0%    | —                                                                 |
-| 11 May   | Global tidal analysis            | Wouter | Elja    | 🔴 0%    | Cross-parameter synthesis                                         |
-| 14 May   | Draft report (methods)           | Tobias | All     | 🔴 0%    | Bias + methodology                                                |
-| 14 May   | Draft report (results)           | Elja   | All     | 🔴 0%    | Figures + trends                                                  |
-| 14 May   | Draft report (discussion)        | Wouter | All     | 🔴 0%    | Physical interpretation                                           |
-| 16 May   | Poster design                    | Damian | All     | 🔴 0%    | Visual clarity focus                                              |
-| 18 May   | Final report + presentation      | All    | —       | 🔴 0%    | Final integration                                                 |
-| 22 May   | Poster presentation              | All    | —       | 🔴 0%    | Happy thoughts                                                    |
->>>>>>> Stashed changes
+## ToDo
+
+| Deadline | Task                                                           | Owner  | Support | Progress | Notes                                       |
+| -------- | -------------------------------------------------------------- | ------ | ------- | -------- | ------------------------------------------- |
+| 8 May    | Finalize cleaned SB9 + ORB6 datasets                           | Wouter | All     | 🔴 0%    | Maintains final analysis dataset            |
+| 8 May    | Finalize catalogue documentation & sources                     | Elja   | Tobias  | 🟢 100%  | Catalogues documented clearly               |
+| 9 May    | Literature summary: expected eccentricity distribution         | Elja   | —       | 🟢 95%   | Includes implementation ideas               |
+| 9 May    | Literature summary: expected mass ratio + period distributions | Tobias | —       | 🔴 0%    | Focus on observational selection effects    |
+| 9 May    | Literature summary: expected radius ratio distribution         | Damian | —       | 🟡 40%   | Depends partly on Teff + luminosity         |
+| 9 May    | Literature summary: expected semi-major axis distribution      | Wouter | —       | 🔴 0%    | Summary required                            |
+| 10 May   | Define observed vs theoretical comparison method               | Tobias | All     | 🔴 0%    | Includes subtraction/normalization strategy |
+| 10 May   | Implement theoretical population generator (e)                 | Elja   | —       | 🟡 70%   | Moe & Di Stefano (2017)-based generator, making a class out of it still wip     |
+| 10 May   | Implement theoretical population generator (q, P)              | Tobias | —       | 🔴 0%    | Code + notes                                |
+| 10 May   | Implement theoretical population generator (R)                 | Damian | —       | 🔴 0%    | Requires Teff + luminosity                  |
+| 10 May   | Implement theoretical population generator (a)                 | Wouter | —       | 🔴 0%    | Code + notes                                |
+| 11 May   | Generate observed vs expected distributions (e)                | Elja   | —       | 🟡 70%     | Compare catalogue vs model populations  -> done for one distribution still need to analyse if its all theoretical.    |
+| 11 May   | Generate observed vs expected distributions (q, P)             | Tobias | —       | 🔴 0%    | —                                           |
+| 11 May   | Generate observed vs expected distributions (R)                | Damian | —       | 🔴 0%    | —                                           |
+| 11 May   | Generate observed vs expected distributions (a)                | Wouter | —       | 🔴 0%    | —                                           |
+| 11 May   | Obtain Teff + spectral type + luminosity                       | Damian | Tobias  | 🟢 100%    | Critical dependency                         |
+| 13 May   | Analyse observational biases in SB9 and ORB6                   | All    | —       | 🔴 0%    | Compare against expected detection biases   |
+| 14 May   | Select final figures for poster                                | All    | —       | 🔴 0%    | Focus on strongest comparisons              |
+| 15 May   | Assemble poster                                                | Elja   | All     | 🔴 20%    | Minimal text, strong visuals                |
+| 22 May   | Poster presentation                                            | All    | —       | 🔴 0%    | Final presentation                          |
+
 
 ---
+
 ## Progress Legend
 
 * 🔴 Not started (0%)
@@ -96,31 +67,32 @@ What is the distribution of eccentricity, mass ratio, radius ratio, orbital peri
 * 🟢 Completed (100%)
 
 ---
+
 ## Data Status
 
-**Available:**
+### Available
 
 * Eccentricity (e)
-* Period
+* Orbital period (P)
 * Semi-major axis (a)
 * Parallax
 * Inclination (i)
 * Catalogue IDs
-
-**Pending:**
-
+* SB9 catalogue data
+* ORB6 catalogue data
 * Spectral type
-* Effective temperature (Teff) *(needed for radius ratio)*
-* Luminocity (L) *(needed for radius ratio)*
+* Luminosity (L) *(needed for radius ratio)*
 
+### Not Available
+* Effective temperature (Teff) *(needed for radius ratio)*
 ---
 
 ## Task Distribution
 
-* **Elja** → Eccentricity distribution
-* **Tobias** → Mass ratio + Orbital period distribution
-* **Damian** → Radius ratio *(depends on Teff, L)*
-* **Wouter** → Semi-major axis distribution
+* **Elja** → Eccentricity distributions
+* **Tobias** → Mass ratio + orbital period distributions
+* **Damian** → Radius ratio distributions *(depends on Teff, L)*
+* **Wouter** → Semi-major axis distributions
 
 ---
 
@@ -128,72 +100,61 @@ What is the distribution of eccentricity, mass ratio, radius ratio, orbital peri
 
 ### 1. Data Preparation (11–18 April)
 
-* Clean dataset (remove NaNs, invalid entries)
+* Clean SB9 and ORB6 datasets
+* Remove invalid entries and NaNs
 * Ensure consistent units
-* Prepare shared dataset
+* Prepare shared analysis dataset
 
 ---
 
-### 2. Bias Research (18–25 April)
+### 2. Literature Research on Expected Distributions (18–25 April)
 
-Each member investigates biases affecting their parameter:
+Each member investigates expected intrinsic distributions for their parameter:
 
+* Population synthesis models
+* Binary formation literature
 * Selection effects
-* Detection limits
-* Catalogue-specific biases
-* Relevant literature
+* Detection biases
+* Catalogue incompleteness
 
-➡ Output: short written summary per parameter
+➡ Output: short literature summary + expected model assumptions
 
 ---
 
-### 3. Bias Correction (25 April – 2 May)
+### 3. Population Modelling & Comparison Methods (25 April – 2 May)
 
-* Define correction methods (cuts, weighting, etc.)
-* Apply corrections to dataset
+* Define expected binary population models
+* Implement synthetic population generators
+* Define subtraction/comparison methods
 * Document assumptions clearly
 
 ---
 
 ### 4. Distribution Analysis (2–5 May)
 
-* Generate corrected distributions
-* Compare raw vs corrected results
-* Quick identification of major features
+* Generate observed catalogue distributions
+* Generate expected synthetic distributions
+* Compare observed vs expected populations
+* Identify major discrepancies and trends
 
 ---
 
 ### 5. Interpretation & Tidal Effects (5–11 May)
 
-*(Expanded — this is the hard part)*
-
-* Analyse relationships between parameters
+* Analyse deviations between observed and expected populations
 * Focus on eccentricity vs orbital period
-* Identify tidal circularization signatures
-* Cross-compare parameters (e.g. mass ratio vs period)
-* Interpret physical meaning of distributions
+* Identify signatures of tidal circularization
+* Cross-compare parameters
+* Interpret physical meaning of discrepancies
 
 ---
 
-### 6. Report Writing (11–14 May)
+### 6. Poster Preparation (8–16 May)
 
-* Combine all results
-* Clearly explain:
-
-  * Methods
-  * Bias corrections
-  * Key interpretations
-* Draft figures + captions early
-
----
-
-### 7. Poster Preparation (14–16 May)
-
-* Create visual summary of results
+* Create concise visual summary
 * Focus on:
 
-  * Clean plots
-  * Clear takeaway messages
-
----
-
+  * Observed vs expected comparisons
+  * Key tidal effects
+  * Clear plots and takeaway messages
+  * Minimal text, strong visuals
