@@ -13,7 +13,7 @@
 ## Research Question
 
 What observational biases are present in the SB9 and ORB6 binary star catalogues when compared to theoretically expected binary star populations? Specifically, do the differences between observed and theoretical distributions of eccentricity, mass ratio, radius ratio, orbital period, and semi-major axis match the observational biases expected from the detection methods used in these catalogues?
----
+
 
 
 
