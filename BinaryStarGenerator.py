@@ -21,32 +21,32 @@ lgoP = 1.5-4.5
 import imf
 import numpy as np
 from matplotlib import pyplot as plt
+import numpy as np
+from scipy.integrate import cumulative_trapezoid
+from scipy.interpolate import interp1d
 
 
 class BinaryStarGenerator:
-    def __init__(self):
-        x=1
 
-    def generate_single(self, pdf_vals, limit, number):
-        dx = limit / len(pdf_vals)
+    def generate_single(self, pdf, limit, number):
 
-        # build proper CDF
-        cdf = np.cumsum(pdf_vals) * dx
-        cdf /= cdf[-1]
+        xmin, xmax = limit
+        x = np.linspace(xmin, xmax, 10000)
+        # calc pdf for x
+        p = pdf(x)
+        p = np.clip(p, 0, None)
+        #integrate to get cdf
+        cdf = cumulative_trapezoid(p, x, initial=0)
+        cdf /= cdf[-1] #normalize
 
-        def get_sample():
-            u = np.random.uniform(0, 1)
-            return np.searchsorted(cdf, u)
+        # Inverse CDF interpolation
+        inv_cdf = interp1d(cdf, x)
 
-        samples = []
+        # Uniform random numbers
+        u = np.random.rand(number)
 
-        for _ in range(number):
-            idx = get_sample()
-            e = idx * dx
-            samples.append(e)
-
-        plt.hist(samples, bins=50)
-        plt.show()
+        # Samples
+        samples = inv_cdf(u)
 
         return samples
 
