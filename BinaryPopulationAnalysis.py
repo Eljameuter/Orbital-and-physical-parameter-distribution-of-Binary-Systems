@@ -106,9 +106,9 @@ class BinaryPopulationAnalysis:
                 ax.set_facecolor("none")
 
                 if row == 0:
-                    ax.set_title(self.col_labels[col], fontsize=30, color=C["text"])
+                    ax.set_title(self.col_labels[col], fontsize=24, color=C["text"])
                 if col == 0:
-                    ax.set_ylabel(row_titles[row], fontsize=30, color=C["text"])
+                    ax.set_ylabel(row_titles[row], fontsize=24, color=C["text"])
 
                 ax.tick_params(labelsize=8, colors=C["text"])
                 for spine in ax.spines.values():
