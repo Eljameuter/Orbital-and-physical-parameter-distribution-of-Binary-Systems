@@ -43,11 +43,11 @@ What observational biases are present in the SB9 and ORB6 binary star catalogues
 | 9 May    | Literature summary: expected radius ratio distribution         | Damian | —       | 🟡 40%   | Depends partly on Teff + luminosity         |
 | 9 May    | Literature summary: expected semi-major axis distribution      | Wouter | —       | 🔴 0%    | Summary required                            |
 | 10 May   | Define observed vs theoretical comparison method               | Tobias | All     | 🔴 0%    | Includes subtraction/normalization strategy |
-| 10 May   | Implement theoretical population generator (e)                 | Elja   | —       | 🟡 70%   | Moe & Di Stefano (2017)-based generator, making a class out of it still wip     |
+| 10 May   | Implement theoretical population generator (e)                 | Elja   | —       | 🟢 100%   | population generator class and plotting class done    |
 | 10 May   | Implement theoretical population generator (q, P)              | Tobias | —       | 🔴 0%    | Code + notes                                |
 | 10 May   | Implement theoretical population generator (R)                 | Damian | —       | 🔴 0%    | Requires Teff + luminosity                  |
 | 10 May   | Implement theoretical population generator (a)                 | Wouter | —       | 🔴 0%    | Code + notes                                |
-| 11 May   | Generate observed vs expected distributions (e)                | Elja   | —       | 🟡 70%     | Compare catalogue vs model populations  -> done for one distribution still need to analyse if its all theoretical.    |
+| 11 May   | Generate observed vs expected distributions (e)                | Elja   | —       | 🟢 100%     | Compare catalogue vs model populations  -> done for one four distribution two purly analytical, two semianalytical    |
 | 11 May   | Generate observed vs expected distributions (q, P)             | Tobias | —       | 🔴 0%    | —                                           |
 | 11 May   | Generate observed vs expected distributions (R)                | Damian | —       | 🔴 0%    | —                                           |
 | 11 May   | Generate observed vs expected distributions (a)                | Wouter | —       | 🔴 0%    | —                                           |
