@@ -3,7 +3,17 @@ Which bias do we have in physical properties of stars (thin Kroupa INF and e pro
 - SB9
 - ORB6
 Game plan: research distributions from theory -> subtract found distribution from observational data -> result is observational bias
-
+# Description of collumn names
+bsdb: BSDB identifier
+ref_idsys: identification system from the original catalog (see the catalogue, filename, and line fields)
+id: identifier from the original catalog
+e: eccentricity
+q: mass ratio
+period: period
+a: semi-major axis
+catalogue: name of the original catalog from which the data was taken
+filename: file in the original catalog
+line: line number in the original catalog file
 # Poster colour scheme
 https://lospec.com/palette-list/retro-space
 
@@ -88,7 +98,9 @@ uniform f(e) = 1
 Wide binaries
 thermal f(e) = 2e
 Very wide binaries
-
+combination of thermal, superthermal and uniform dependent on seperation [Source](https://www.researchgate.net/publication/355872510_The_eccentricity_distribution_of_wide_binaries_and_their_individual_measurements):
+![img.png](
+Media/img.png)
 [Source](https://academic.oup.com/mnras/article/456/2/2070/1071036)
 
 e > 0.5
@@ -102,3 +114,4 @@ The constraints on eccentricity derived by Hut (1981) from
 dissipative tidal evolution lead to a lower limit on the angular momentum h. Given that h2 ∝ a(1 − e2), we get the upper
 envelope P(1 − e2)
 3/2 = const. 
+## Interpretation eccentricity observation bias
