@@ -115,4 +115,15 @@ dissipative tidal evolution lead to a lower limit on the angular momentum h. Giv
 envelope P(1 − e2)
 3/2 = const. 
 ## Interpretation eccentricity observation bias
-In SB9 consistently lower eccentricities 
+In SB9 consistently lower eccentricities are observed more than expected.
+[Proof](https://watermark02.silverchair.com/stag351.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA1wwggNYBgkqhkiG9w0BBwagggNJMIIDRQIBADCCAz4GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMMqbVa-uKOhE60uuXAgEQgIIDDxO07YZzDgITOpMIwL6YdAOVpcJoFeaqmwZkqa5dUWKPBJ-qKVPt-laYJ-blYaMuknLfpPKPwmOyOw5sWa3KE6qhaBZPvaAQXXH_pHqACWq2A2hp-luYDwO1ZfTwAn5rsnisiWG_v0k8CHbqNX6t0DfUJ3no0Uj9B3Ql-DLjEJLvjfulAEdHf2EE5QBcmF6f1pNj9LPJtAbqn4pdygOaNiJulLM705RVkVVO6HBxaWgjZDQm2pq2j24tgEM3NzX78OgOIk5ZCsZgwz8h3wEGVrsjghN2GHTbXYU3-23MsO60iCR_EbVdpLDP7tXLcoCExmnizJp9cAPqnlt2Vmnj50B_LEcW9XvqKUyyzHhDfKCTq2ffHPyRqYUl_WUyiVTHlB6UDSihwYhTZW4DddCB1DnLIA8RNcBVXYghBmMEPKlL7-FtEiKn1WHLp33R9MH5CQgOsw0h_-4Wg6jlTmjX04msCZjIsfLWgZMJpIOlCPLH6SOgsGxVIFYnahn6E8TnpPSYal73nQ1HW0Aa6Usa3vT1vWwNFPUO6gDBFfMsnFYbyLO-d97hNmCcVAFyU8E9nG-v2eYZYEV-Gh2Wcx0oLo0jzicmVxJdCey5rxL39Pfud4RRCBfjBk1139bltG4RWb3Q7AWXqcD-nX7auUdhHrYJbjjmSZNN6PiHSlD0ChV0NRKe3URrhFcu1ZkWjHYNTruBbTeoCRIG5kEG9UF0S5pZxBPgQyKQlDj_EfLopCAvaXxRXQfAt1aci9ApnNkSkQzjgF3CmT3D9ocBzE0DSgjAgOennHCY5eaEQdPlUZId34ycS8SQiKpNfQKH_JyfuidS_YW5Xv0mHnCBC1fAwz2t8Lm4DdPw3W3dG1vlc4CAK0IVm5UtdFZ3eCEvy-o0OmjyHnNIZmAOO3jDUGKb0x9iyfMDSQqvGL3MydttYROXoctpdSNmkYycGLeVguKFf92f59GJW8hEPJuWcapwrwdpd4EAmZWPeqzez6B8YXeSuzRJKssBH_DGtYL3470EMNHZP8U4JHi5VxsnX_Aivg) that that makes sense: 
+Observational bias against high Periods -> supresses high eccentricity systems
+The RV curve is more sinusoidal for e = 0, hence strongly biased towards e = 0 for spectroscopic systems since they are easier to detect
+
+Maybe also in comparison to T < 7 days -> circulization almost certain and since we are also biased 
+towards lower T we see a bunch of circular eccentricities
+
+In ORB6 strongly biased towards lower eccentricities, but not as extremely towards e = 0
+We find that the catalogue of visual orbits is strongly biased against large eccentricities. (https://academic.oup.com/mnras/article/456/2/2070/1071036)
+ORB only includes characterized orbits -> computational selection bias -> smaller e are easier to compute, up to e = 0.5 
+The computational selection is less of a problem for spectroscopic binaries.
