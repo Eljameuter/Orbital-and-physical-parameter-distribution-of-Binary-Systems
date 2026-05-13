@@ -3,7 +3,7 @@ Which bias do we have in physical properties of stars (thin Kroupa INF and e pro
 - SB9
 - ORB6
 Game plan: research distributions from theory -> subtract found distribution from observational data -> result is observational bias
-# Description of collumn names
+# Description of column names
 bsdb: BSDB identifier
 ref_idsys: identification system from the original catalog (see the catalogue, filename, and line fields)
 id: identifier from the original catalog
@@ -115,3 +115,4 @@ dissipative tidal evolution lead to a lower limit on the angular momentum h. Giv
 envelope P(1 − e2)
 3/2 = const. 
 ## Interpretation eccentricity observation bias
+In SB9 consistently lower eccentricities 

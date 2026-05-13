@@ -58,7 +58,7 @@ class BinaryPopulationAnalysis:
 
         synth_hist = np.array(synth_hist)
         obs_hist   = np.array(obs_hist)
-        bias_hist  = synth_hist - obs_hist
+        bias_hist  = obs_hist - synth_hist #- obs_hist
 
         return bins, synth_hist, obs_hist, bias_hist
 
