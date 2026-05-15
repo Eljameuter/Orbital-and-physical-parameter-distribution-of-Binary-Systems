@@ -82,6 +82,11 @@ class BinaryPopulationAnalysis:
            returns a 1-D array of PDF values, e.g. lambda e: 2*e
            If None, no PDF line is drawn.
         """
+        plt.rcParams['xtick.labelsize'] = 14
+        plt.rcParams['ytick.labelsize'] = 14
+        plt.rcParams['axes.labelsize'] = 14
+        plt.rcParams['axes.titlesize'] = 16
+        plt.rcParams['axes.linewidth'] = 3
         n_cols = len(bins)
         C = self.PALETTE
 
@@ -129,11 +134,11 @@ class BinaryPopulationAnalysis:
                     label="Difference")
             ax2.axhline(0, color=C["zero_line"], linewidth=0.8, linestyle="--")
 
-            ax2.set_xlabel(self.col_labels[col], fontsize=14, color=C["text"])
-            ax2.set_ylabel("Residual probability", fontsize=14, color=C["text"])
-            ax2.legend(fontsize=11)
+            ax2.set_xlabel(self.col_labels[col], color=C["text"])
+            ax2.set_ylabel("Residual probability", color=C["text"])
+            ax2.legend()
             ax2.set_facecolor("none")
-            ax2.tick_params(labelsize=8, colors=C["text"])
+            ax2.tick_params(colors=C["text"])
             for spine in ax2.spines.values():
                 spine.set_edgecolor(C["text"])
 
