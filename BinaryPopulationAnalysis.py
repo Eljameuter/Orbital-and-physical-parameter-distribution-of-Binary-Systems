@@ -6,12 +6,12 @@ class BinaryPopulationAnalysis:
 
     # Colour palette
     PALETTE = {
-        "synthetic" : "#45657a",
-        "observed"  : "#963c31",
-        "bias_pos"  : "#56787a",  # synthetic > observed
-        "bias_neg"  : "#ba8b79",  # synthetic < observed
-        "zero_line" : "#333333",
-        "text"      : "#333333",
+        "synthetic": "#ff7f0e",  # C1 orange
+        "observed": "#1f77b4",  # C0 blue
+        "bias_pos": "#9467bd",  # C4 purple  (synthetic > observed)
+        "bias_neg": "#d62728",  # C3 red     (synthetic < observed)
+        "zero_line": "black",
+        "text": "black",
     }
 
     def __init__(self, df_synthetic, synth_cols, obs_cols, col_labels=None):
@@ -82,11 +82,11 @@ class BinaryPopulationAnalysis:
            returns a 1-D array of PDF values, e.g. lambda e: 2*e
            If None, no PDF line is drawn.
         """
-        plt.rcParams['xtick.labelsize'] = 14
-        plt.rcParams['ytick.labelsize'] = 14
-        plt.rcParams['axes.labelsize'] = 14
-        plt.rcParams['axes.titlesize'] = 16
-        plt.rcParams['axes.linewidth'] = 3
+        plt.rcParams['xtick.labelsize'] = 16
+        plt.rcParams['ytick.labelsize'] = 16
+        plt.rcParams['axes.labelsize'] = 24
+        plt.rcParams['axes.titlesize'] = 22
+        plt.rcParams['axes.linewidth'] = 1.1
         n_cols = len(bins)
         C = self.PALETTE
 
@@ -118,34 +118,33 @@ class BinaryPopulationAnalysis:
             ax1.bar(bin_centers, synth, width=width,
                     color=C["synthetic"], alpha=0.5, edgecolor="none",
                     label="Theoretical distribution")
-            ax1.legend(fontsize=11)
+            ax1.legend(fontsize=16)
 
             # PDF line — only drawn if a callable was supplied for this column
             if pdfs is not None and pdfs[col] is not None:
                 pdf_vals = pdfs[col](bin_centers)
                 ax1.plot(bin_centers, pdf_vals,
-                         color=C.get("pdf_line", C["synthetic"]),
+                         color="green",
                          lw=3, label="Theoretical PDF")
 
             # ── Bottom subplot ────────────────────────────────────────────
             colors = [C["bias_pos"] if v >= 0 else C["bias_neg"] for v in bias]
             ax2.bar(bin_centers, bias, width=width,
-                    color=colors, alpha=0.85, edgecolor="none",
+                    color=colors, edgecolor="none",
                     label="Difference")
             ax2.axhline(0, color=C["zero_line"], linewidth=0.8, linestyle="--")
 
             ax2.set_xlabel(self.col_labels[col], color=C["text"])
             ax2.set_ylabel("Residual probability", color=C["text"])
-            ax2.legend()
+            ax2.legend(fontsize=16)
             ax2.set_facecolor("none")
             ax2.tick_params(colors=C["text"])
             for spine in ax2.spines.values():
                 spine.set_edgecolor(C["text"])
 
-        fig.suptitle(title, fontsize=60, y=1.01, color=C["text"])
+        fig.suptitle(title, fontsize=32, y=1.01, color=C["text"])
         plt.tight_layout()
 
         if save_path:
-            fig.savefig(save_path, format="jpg", dpi=150,
-                        bbox_inches="tight", transparent=True)
+            fig.savefig(save_path,bbox_inches="tight")
         plt.show()
