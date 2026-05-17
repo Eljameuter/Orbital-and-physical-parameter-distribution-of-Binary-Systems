@@ -26,7 +26,7 @@ class BinaryPopulationAnalysis:
         self.obs_cols     = obs_cols
         self.col_labels   = col_labels if col_labels is not None else synth_cols
 
-    def generate_histograms(self, df_obs, n_bins=50):
+    def generate_histograms(self, df_obs, n_bins=100):
         """
         Generate synthetic, observed, and bias histograms.
 
