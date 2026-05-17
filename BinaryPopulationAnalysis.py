@@ -146,6 +146,5 @@ class BinaryPopulationAnalysis:
         plt.tight_layout()
 
         if save_path:
-            fig.savefig(save_path, format="jpg", dpi=150,
-                        bbox_inches="tight", transparent=True)
+            fig.savefig(save_path,bbox_inches="tight", transparent=True)
         plt.show()
