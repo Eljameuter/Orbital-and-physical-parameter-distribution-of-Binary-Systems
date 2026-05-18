@@ -92,8 +92,7 @@ class BinaryPopulationAnalysis:
 
         fig, axes = plt.subplots(2, n_cols,
                                  figsize=(8 * n_cols, 10),
-                                 sharex="col",
-                                 facecolor="none")
+                                 sharex="col")
 
         # Ensure axes is always 2-D even for a single column
         if n_cols == 1:
@@ -113,10 +112,10 @@ class BinaryPopulationAnalysis:
 
             # ── Top subplot ──────────────────────────────────────────────
             ax1.bar(bin_centers, obs, width=width,
-                    color=C["observed"], alpha=0.85, edgecolor="none",
+                    color=C["observed"],
                     label="Observed distribution")
             ax1.bar(bin_centers, synth, width=width,
-                    color=C["synthetic"], alpha=0.5, edgecolor="none",
+                    color=C["synthetic"], alpha=0.5,
                     label="Theoretical distribution")
             ax1.legend(fontsize=16)
 
@@ -130,14 +129,13 @@ class BinaryPopulationAnalysis:
             # ── Bottom subplot ────────────────────────────────────────────
             colors = [C["bias_pos"] if v >= 0 else C["bias_neg"] for v in bias]
             ax2.bar(bin_centers, bias, width=width,
-                    color=colors, edgecolor="none",
+                    color=colors,
                     label="Difference")
             ax2.axhline(0, color=C["zero_line"], linewidth=0.8, linestyle="--")
 
             ax2.set_xlabel(self.col_labels[col], color=C["text"])
             ax2.set_ylabel("Residual probability", color=C["text"])
             ax2.legend(fontsize=16)
-            ax2.set_facecolor("none")
             ax2.tick_params(colors=C["text"])
             for spine in ax2.spines.values():
                 spine.set_edgecolor(C["text"])
